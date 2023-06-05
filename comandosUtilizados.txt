@@ -1,0 +1,240 @@
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop
+$ cd Certified\ Tech\ Developer/ 
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer
+$ 1er\ Bimestre/Introducción\ a\ la\ Informática/
+bash: 1er Bimestre/Introducción a la Informática/: Is a directory
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer
+$ 1er\ Bimestre/ 
+bash: 1er Bimestre/: Is a directory
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer
+$ cd 1er\ Bimestre/Introducción\ a\ la\ Informática/
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática
+$ mkdir
+mkdir: missing operand
+Try 'mkdir --help' for more information.
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática
+$ mkdir Examen1
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática
+$ cd Examen1/
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1
+$ mkdir 05062023-JuanCamano
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1
+$ cd 05062023-JuanCamano/
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano
+$ git init
+Initialized empty Git repository in C:/Users/HP/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano/.git/
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (master)
+$ git branch -m main
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git remote add origin https://github.com/JuanACamano/05062023-JuanCamano.git
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ touch comandos.txt main.js index.html
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git add .
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git status
+On branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   comandos.txt
+        new file:   index.html
+        new file:   main.js
+
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git commit -m "commit 01 de Juan Camaño"
+[main (root-commit) 7420425] commit 01 de Juan Camaño
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 comandos.txt
+ create mode 100644 index.html
+ create mode 100644 main.js
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git log
+commit 7420425bf149ba4a8553870977a1c4aa647e6dc1 (HEAD -> main)
+Author: Juan Camaño <juan_ca_117@hotmail.com>
+Date:   Mon Jun 5 19:30:19 2023 -0300
+
+    commit 01 de Juan Camaño
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git push origin main
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 250 bytes | 125.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/JuanACamano/05062023-JuanCamano.git
+ * [new branch]      main -> main
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git branch feature01
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git log -v
+commit 7420425bf149ba4a8553870977a1c4aa647e6dc1 (HEAD -> main, origin/main, feature01)
+Author: Juan Camaño <juan_ca_117@hotmail.com>
+Date:   Mon Jun 5 19:30:19 2023 -0300
+
+    commit 01 de Juan Camaño
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ git checkout feature01
+Switched to branch 'feature01'
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ mkdir Terminal Hardware
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ touch resumen.txt Terminal/ Hardware/
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ mv resumen.txt Terminal/
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ cp resumen.txt Hardware/
+cp: cannot stat 'resumen.txt': No such file or directory
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ cd Terminal/
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano/Terminal (feature01)
+$ cp resumen.txt ../Hardware/
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano/Terminal (feature01)
+$ cd ..
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git add .
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git commit -m "commit02 de Juan Camaño"
+[feature01 49d4263] commit02 de Juan Camaño
+ 2 files changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 Hardware/resumen.txt
+ create mode 100644 Terminal/resumen.txt
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git push feature01
+fatal: 'feature01' does not appear to be a git repository
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git push origin feature01
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 368 bytes | 368.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature01' on GitHub by visiting:
+remote:      https://github.com/JuanACamano/05062023-JuanCamano/pull/new/feature01
+remote:
+To https://github.com/JuanACamano/05062023-JuanCamano.git
+ * [new branch]      feature01 -> feature01
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git log -V
+fatal: unrecognized argument: -V
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git log -v
+commit 49d4263f9257bf712007e136ada5f233b933e1fa (HEAD -> feature01, origin/feature01)
+Author: Juan Camaño <juan_ca_117@hotmail.com>
+Date:   Mon Jun 5 19:38:05 2023 -0300
+
+    commit02 de Juan Camaño
+
+commit 7420425bf149ba4a8553870977a1c4aa647e6dc1 (origin/main, main)
+Author: Juan Camaño <juan_ca_117@hotmail.com>
+Date:   Mon Jun 5 19:30:19 2023 -0300
+
+    commit 01 de Juan Camaño
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git branch feature02
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git ckeckout feature02
+git: 'ckeckout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git swichted feature02
+git: 'swichted' is not a git command. See 'git --help'.
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature01)
+$ git checkout feature02
+Switched to branch 'feature02'
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature02)
+$ git add .
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature02)
+$ git status
+On branch feature02
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   Hardware/resumen.txt
+        modified:   Terminal/resumen.txt
+
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature02)
+$ git commit -m "commit03 de Juan Camaño"
+[feature02 19613db] commit03 de Juan Camaño
+ 2 files changed, 9 insertions(+)
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature02)
+$ git push origin feature02
+Enumerating objects: 11, done.
+Counting objects: 100% (9/9), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 780 bytes | 390.00 KiB/s, done.
+Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+remote: 
+remote: Create a pull request for 'feature02' on GitHub by visiting:
+remote:      https://github.com/JuanACamano/05062023-JuanCamano/pull/new/feature02
+remote:
+To https://github.com/JuanACamano/05062023-JuanCamano.git
+ * [new branch]      feature02 -> feature02
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature02)
+$ git switch origin main
+fatal: only one reference expected
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (feature02)
+$ git switch main
+Switched to branch 'main'
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ mv comandos.txt 
+.git/         comandos.txt  index.html    main.js       
+
+HP@DESKTOP-MR7KNI0 MINGW64 ~/Desktop/Certified Tech Developer/1er Bimestre/Introducción a la Informática/Examen1/05062023-JuanCamano (main)
+$ mv comandos.txt comandosUtilizados.txt
