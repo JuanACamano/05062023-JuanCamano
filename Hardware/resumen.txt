@@ -1,0 +1,4 @@
+3 Partes Internas de la Computadora:
+CPU o Unidad Central de Procesamiento.
+Placa madre.
+Memoria RAM (Memoria de Acceso Aleatorio).

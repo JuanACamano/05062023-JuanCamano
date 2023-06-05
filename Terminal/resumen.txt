@@ -1,0 +1,5 @@
+git init : inicializa el repositorio local.
+git remote add origin ... : vincula el repositorio local con el remoto.
+git branch "nombre": permite crear una rama en GitHub con el nombre que queramos.
+git checkout "nombre" : permite cambiarnos de rama, para ello primero debemos crear determinada rama.
+git push origin "nombre de la rama" : permite subir los archivos y documentos deseados al repositorio remoto en GitHub.
